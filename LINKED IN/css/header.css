@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    border-color: white;
+    color: black;
+    
+}
+
+
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 10vh;
+    box-shadow: 8px 8px 8px 8px rgb(54, 54, 54,0.3);
+}
+.premium{cursor: pointer;color:rgb(114, 114, 114) ; }
+.premium:hover{color: black;}
+.profile{ cursor: pointer;
+    color: rgb(114, 114, 114);
+    img {height: 27px;}}
+.profile:hover{color: rgb(0, 0, 0);}
+
+#logo{
+    height: 27px;
+    
+}
+.top{ 
+    display: flex; 
+    gap: 15px;
+}
+.top i:hover{color: rgb(25, 0, 253);}

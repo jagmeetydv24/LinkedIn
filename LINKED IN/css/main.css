@@ -1,0 +1,79 @@
+body{background-color: #d3d3d3;}
+
+.profile-card {
+    background-color: rgb(234, 234, 234);
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden; 
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+.header {
+    background-color: #888888;
+    height: 50px;
+}
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    border: 3px solid white;
+}
+.profile-info {
+    
+    padding: 0 20px;
+}
+.profile-info h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.profile-info p {
+    color: #555;
+    margin: 5px 0;
+    font-size: 14px;
+}
+.profile-info img {
+    width: 15px;
+    vertical-align: middle;
+}
+.menu {
+    list-style: none;
+    padding: 10px;
+    margin: 20px 10px 10px;
+    
+}
+
+.menu li {
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    }
+.menu li:hover {
+    background-color: #b3adad;
+}
+.menu li img {
+    width: 20px;
+    height: 20px;
+}
+
+p1 {padding: 8px;
+   border: rgb(73, 132, 132) solid 2px ;
+   color: rgb(14, 14, 14);
+   width: fit-content;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+border-radius: 50px;
+font-size: 25px;
+margin-left: 60px;
+
+}
+
+
